@@ -1,0 +1,13 @@
+git push -u origin main "sirve para subir los cambios al repositorio"
+git add . "sirve para agregar los cambios antes de hacer un commit"
+git commit "sirve para hacer un respaldo de los cambios hechos"
+git pull "sirve para descargar cambios del repositorio remoto"
+git push "sirve para subir cambios al repositorio remoto"
+antes de hacer un commit me tengo que ubicar  en la raiz del proyecto (nombre de la carpeta)
+para cambiar la carpeta cd ./nombrecarpeta cambiar de carpeta 
+cd tabulardo y te muestra carpetas disponibles
+docker compose up --build "sirve para iniciar el docker"
+docker compose down "sirve para detener el docker"
+ctrl+c "sirve para detener el docker y vite"
+ 
+

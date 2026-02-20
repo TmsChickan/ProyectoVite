@@ -1,0 +1,15 @@
+services:
+  proyectovite:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: proyectovite
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    deploy:
+      resources:
+        limits:
+          memory: 512M
